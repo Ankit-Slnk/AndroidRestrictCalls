@@ -27,14 +27,18 @@
             </intent-filter>
         </activity>
 
-        <receiver
-            android:name=".IncomingCallReceiver"
-            android:enabled="true"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.PHONE_STATE" />
-            </intent-filter>
-        </receiver>
+        <!--        comment to do manual-->
+
+        <!--        uncomment for automatic-->
+
+        <!--        <receiver-->
+        <!--            android:name=".IncomingCallReceiver"-->
+        <!--            android:enabled="true"-->
+        <!--            android:exported="true">-->
+        <!--            <intent-filter>-->
+        <!--                <action android:name="android.intent.action.PHONE_STATE" />-->
+        <!--            </intent-filter>-->
+        <!--        </receiver>-->
 
     </application>
 
